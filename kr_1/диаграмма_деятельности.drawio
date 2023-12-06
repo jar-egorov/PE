@@ -1,0 +1,95 @@
+<mxfile host="Electron" modified="2023-10-26T18:19:58.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="YBTqnvV-gM8Cz9EyyUyu" version="21.6.8" type="device">
+  <diagram name="Page-1" id="jgSnX_lzOxUU9vwJvQBQ">
+    <mxGraphModel dx="651" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uqbjPbdOvKg6OFv6Rr6E-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-3" value="Получение запроса на постановку в очередь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="515" as="targetPoint" />
+            <mxPoint x="517.5" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-7" target="uqbjPbdOvKg6OFv6Rr6E-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="380" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-11" value="Пользователь отсутствует в очереди" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-16" target="uqbjPbdOvKg6OFv6Rr6E-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-16" value="Добавить пользователя в очередь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-20" target="uqbjPbdOvKg6OFv6Rr6E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-20" target="uqbjPbdOvKg6OFv6Rr6E-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-20" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="620" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-22" target="uqbjPbdOvKg6OFv6Rr6E-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-22" value="Уведомить пользователя об окончании очереди" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-24" value="очередь дошла до Пользователя&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="618" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-25" value="Ожидание" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="740" as="sourcePoint" />
+            <mxPoint x="440" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.945;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uqbjPbdOvKg6OFv6Rr6E-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqbjPbdOvKg6OFv6Rr6E-30" target="uqbjPbdOvKg6OFv6Rr6E-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-30" value="Удалить пользователя из очереди" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqbjPbdOvKg6OFv6Rr6E-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="155" y="990" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
